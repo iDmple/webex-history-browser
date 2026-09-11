@@ -1,0 +1,17 @@
+# --- Exported Webex data (regenerable, and large: multiple GB of attachments) ---
+/webex-history/
+
+# --- Generated browser page (rebuilt from the data on every run) ---
+/index.html
+
+# --- Secrets: never commit a Webex token ---
+.env
+*.token
+webex_token
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+
+# --- OS junk ---
+.DS_Store
